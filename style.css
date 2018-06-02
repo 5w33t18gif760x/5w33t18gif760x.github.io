@@ -1,146 +1,196 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
-
-html,body{ 
-	width:100%;
-	height:100%;
-	background:#111;
-}
-
-html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 body{
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  font:normal 75% Arial, Helvetica, sans-serif;
+	background-color: #d6d6d6;
+	margin: 0px auto;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
+#header{
+	height: 60px;
+	background-color: white;
+	max-width: 900px;
+	position: relative;
+	margin: 0px auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	margin-bottom: 2px;
 }
 
-
-/* ---- stats.js ---- */
-
-.count-particles{
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+#content{
+	min-height: 500px;
+	background: white;
+	max-width: 900px;
+	position: relative;
+	margin: 0px auto;
+	margin-bottom: 2px;
 }
 
-.js-count-particles{
-  font-size: 1.1em;
+#footer{
+	height: 200px;
+	background: white;
+	max-width: 900px;
+	position: relative;
+	margin: 0px auto;
+	margin-top: -19px;
 }
 
-#stats,
-.count-particles{
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
+.image{
+	position: relative;
+	left: 2.8%;
+	top: 10%;
+	color: #2a2a2a;
 }
 
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
+.links{
+	position: relative;
+	top: -40%;
+	left: 60%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px
 }
 
-.count-particles{
-  border-radius: 0 0 3px 3px;
+ol.hr {
+   margin: 0; 
+   padding: 4px; 
+ }
+ol.hr li {
+   display: inline;
+   margin-right: 5px;
+   padding: 20px;
 }
 
-
-/* ---- контейнеры ---- */
-
-#particles-js{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: #dbdbdb;
-  background-image: url('https://uspstrackingtool.com/wp-content/uploads/2018/04/star-background-771.png');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+a{
+	text-decoration: none;
 }
 
-#page-wrapper{
-  position: relative;
-  z-index: 2;
-  width: 100%
-  margin: 0 auto;
-  padding: 25px;
+a:hover{
+	text-shadow: 1px 1px 2px orange, 0 0 1em orange;
 }
 
-.btext{
-    color: #f9f3f4;
-    position: absolute;
-    text-align: center;
-    top: 10%;
-    width: 100%;
-    line-height: 0.4em;
+.headline{
+	font-family: 'Arimo', sans-serif;
+	font-size: 50px;
+	color: #2a2a2a;
+	padding-top: 10px;
 }
 
-h1{
-    font-size: 50px;
+.secondheadline{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	font-size:22px;
+	font-family: 'Arimo', sans-serif;
+	color: #2a2a2a;
 }
 
-.btn{
-    color: #fff;
-    text-decoration: none;
-    border: #ccc 1px solid;
-    padding: 10px 15px;
-    border-radius: 8px;
-    line-height: 4em;
+.hldes{
+	position: relative;
+	top: 10px;
+	left: 19px;
+	font-size:20.5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 10px;
+	color: #5e5e5e;
+	margin-right: 30px;
 }
 
-.btn:hover{
-    color: #b19295;
-    border: #fff 1px solid;
+td.align{
+	width: 250px;
 }
 
-.image {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-}
-.new {
-  position: absolute;
-  top: 25%;
-  left: 25%;
+ul.vitek_zdarova{
+	position: relative;
+	font-size:20.5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 30px;
+	left: 30px;
+	color:#2a2a2a;
 }
 
-.title {
-   color: #f9f3f4;
-    position: absolute;
-    text-align: center;
-    top: 90%;
-    width: 100%;
+#button{
+	position: absolute;
+	top: 76.7%;
+	width: 300px;
+	height: 70px;
+	left: 65.5%;
 }
+
+.button{
+	background-color: #ffa200;
+	text-align: center;
+	width: 281px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 35px;
+	color: white;
+
+}
+
+.button:hover{
+	color: black;
+	background-color: #ffae21;
+	box-shadow: 0 0 15px orange;
+}
+
+a.new{
+	display: visibility;
+}
+
+a.new:hover{
+	text-shadow: none;
+
+}
+
+#outrofirst{
+	position: relative;
+	width: 400px;
+	height: 180px;
+	margin-left: 30px;
+	top: 10px;
+}
+
+#outrosecond{
+	width: 400px;
+	height: 180px;
+	position: relative;
+	top: -170px;
+	left: 52%;
+}
+
+.inneroutro{
+	position: relative;
+	top: 10px;
+	left: 15px;
+	font-size:22px;
+	font-family: 'Arimo', sans-serif;
+	color: #2a2a2a;
+}
+
+.desoutro{
+	position: relative;
+	top: 10px;
+	left: 19px;
+	font-size:17px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-top: 10px;
+	color: #5e5e5e;
+	margin-right: 30px;
+}
+
+#powered_by{
+	width: 400px;
+	height: 30px;
+	position: relative;
+	top: 25px;
+	left: -60%;
+	text-align: left;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-top: 10px;
+	color:#dcdcdc;
+
+}
+/*   			<div id="button">
+
+   				<a href="#"><img src="img/btn.jpg"align="center" vspace="15" hspace="10"></a>
+
+   			</div> */
