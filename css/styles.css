@@ -1,0 +1,166 @@
+
+body {
+    background-image: url('http://iliketowastemytime.com/sites/default/files/outer-space-hd-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jora {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	margin-top: 150px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0px 0px 10px black;
+	text-transform: uppercase;
+	transition: 0.5s ease-in-out;
+}
+
+h1.lvl1 {
+	font-size: 50px;
+}
+
+h1.lvl2 {
+	margin-top: -25px;
+	font-size: 25px;
+}
+
+h1.lvl3 {
+	font-size: 25px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+h1.lvl4{
+	margin-top: -100px;
+}
+
+a.contact {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	margin-left: -70px;
+}
+
+a.contact:hover {
+	font-size: 27px;
+	margin-left: -75px;
+	transition: 0s ease-in-out;
+}
+
+#pf {
+
+}
+
+.title1 {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 250px;
+	color: white;
+	font-family: 
+	font-size: 50px;
+	text-shadow: 0px 0px 10px black;
+	transition: 1s ease-in-out;
+}
+
+.data {
+	width: 300px; 
+    margin: auto;
+    background: white;
+    background: rgba(255,255,255, 0.2);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-top: 1px;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+.data:hover {
+	opacity: 1;
+	transition: 0.2s ease-in-out;
+	width: 330px;
+}
+
+.data-left {
+	width: 300px; 
+    margin: auto;
+    float: left;
+    background: white;
+    background: rgba(255,255,255, 0.2);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    opacity: 0.5;
+    margin-left: 25px;
+    border-radius: 8px;
+}
+
+.data-left:hover {
+	opacity: 1;
+	transition: 0.2s ease-in-out;
+	width: 330px;
+}
+
+
+.data-right {
+	width: 300px; 
+	margin: auto;
+    background: white;
+    background: rgba(255,255,255, 0.2);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    float: right;
+    opacity: 0.5;
+    margin-right: 25px;
+    border-radius: 8px;
+
+}
+
+.data-right:hover {
+	opacity: 1;
+	transition: 0.2s ease-in-out;
+	width: 330px;
+}
+
+form{
+	margin-top: 20px;
+}
+
+.form-controll{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+.form-controlls{
+	 background: #57627f;
+	 border-color: transparent;
+	 color: white;
+	 font-size: 20px;
+	 font-weight: bold;
+	 letter-spacing: 2px;
+	 height: 50px;
+	 margin-top: 20px;
+	 width: 200px;
+	 margin-left: 20%;
+}
+
+.form-controlls:hover {
+	transition: 1s ease-in-out;
+	background: #6d7b9e;
+}
+
+.contact-form{
+	margin-left: 28%;
+	margin-top: 59px;
+	border-color: black;
+}
+
