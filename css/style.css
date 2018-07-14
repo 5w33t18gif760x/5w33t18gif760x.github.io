@@ -177,3 +177,9 @@ button.submit {
 button.submit:hover {
 	cursor: pointer; 
 }
+
+@media (min-width: 0px) and (max-width: 668px;){
+	body{
+		overflow-x: none;
+	}
+}
